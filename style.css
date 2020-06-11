@@ -1,0 +1,44 @@
+.head{
+    background-color:red;
+}
+.name{
+    background-color:orange;
+} 
+.one{
+    background-color:yellow;
+}
+.two{
+    background-color:green;
+}
+.three{
+    background-color:blue;
+}
+.four{
+    background-color:indigo;
+}
+.five{
+    background-color:violet;
+}
+a:link{
+    color:white
+}
+a:visited{
+    color:black
+
+}
+.img{
+    position:relative;
+}
+.img p{
+    position:absolute;
+    top:50%;
+    bottom:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.img:hover p{
+    opacity:1;
+}
+.img:hover img{
+    opacity:0.33
+}
